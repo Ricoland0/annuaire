@@ -1,0 +1,36 @@
+Ca c'est ecrit avec chatgpt parce que mon niveau d'explication est pas ouf du coup c'est une correction de Rapport-OG.txt
+ca me ressemble pas mais c'est plus comprehensible
+y a le pseudo code aussi sur rapport-OG.txt
+
+Rapport
+
+J'ai commencé à faire une application comme sur l'exemple,
+mais à arriver à mi-chemin, ça ne marchait plus. Du coup,
+j'ai tout supprimé et décidé de repartir de zéro avec du HTML.
+Pour avoir quelque de plus pratique à utiliser.
+
+En fait, je galérais à rendre les contacts modifiables et à leur
+ajouter plusieurs infos dans la version terminal. Alors,
+je suis reparti de zéro. J'ai d'abord créé un formulaire pour
+ajouter les contacts, ainsi qu'une partie pour les afficher.
+Ensuite, j'ai codé une fonction qui récupère les inputs
+et crée les contacts.
+
+Pour la recherche, j'ai repris bout de code que
+j'avais utilisé dans un autre projet et je l'ai adapté pour
+une table (à la base, c'était pour une liste). Côté modifications
+et suppressions, j'ai opté pour une liste déroulante qui appelle
+différentes fonctions.
+
+J'ai commencé par créer openModif, une fonction qui ouvre
+un formulaire avec les infos du contact. Sauf que, quand je
+faisais des changements, ça ne marchait pas. Donc, j'ai fait
+une autre fonction qui écrase les anciennes infos du contact
+et les remplace par les nouvelles. Franchement, coder tout ça,
+surtout la partie modif, c'était long et un peu galère.
+
+Sinon, j'ai découvert les regex pour valider les inputs,
+et franchement, c'est vraiment pratique. J'ai aussi appris
+à utiliser les tableaux.
+Je voulais utiliser localStorage pour stocker les contacts,
+mais mon code est mal fait, donc j'ai laissé tomber.
