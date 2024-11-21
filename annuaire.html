@@ -44,6 +44,9 @@
                 text-decoration: none;
                 cursor: pointer;
             }
+            .search:focus::placeholder{
+                display: none;
+            }
             </style>
     </head>
     <body>
@@ -72,7 +75,7 @@
         <div id="container" class="mt-4">
             <div id="search" class="mb-3 w-50">
                 <label for="searchInput" class="form-label"><h2>Liste des contacts</h2></label>
-                <input id="searchInput" type="text" onkeyup="sortContact()" class="form-control"> 
+                <input id="searchInput" type="text" onkeyup="sortContact()" class="form-control search" placeholder="Faire une recherche"> 
             </div>
             <table id="contactTable" class="table table-light table-striped table-bordered">
                 <thead>

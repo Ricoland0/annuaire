@@ -136,6 +136,15 @@ function delContact(index) {
     afficheContact();
 }
 
+//Ca sert juste a afficher ou cacher le placeholder de la barre de recherche
+document.getElementById('searchInput').addEventListener('focus', function() {
+    this.setAttribute('data-placeholder', this.getAttribute('placeholder'));
+    this.setAttribute('placeholder', '');
+});
+
+document.getElementById('searchInput').addEventListener('blur', function() {
+    this.setAttribute('placeholder', this.getAttribute('data-placeholder'));
+});
 
 //Fonction pour trier les contacts trouver sur codepen (credit sur le readme) 
 //ne pas faire attention c'est pour moi et je vais le comprendre et commenter plus tard
