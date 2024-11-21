@@ -10,16 +10,13 @@ J'ai découvert les regex pour la validation des inputs et c'est vraiment pratiq
 Pour le trie du tableau j'ai pris un code de code ne pas y tenir compte c'est pour m’entraîner et comprendre des plus gros algo
 
 Étant donné que je suis mauvais pour faire du pseudo-code et que tout mon code a changé entre temps, j'ai tout supprimé ici aussi. Mais ça ressemblait à un truc comme ça :
-
-debut
-    demander une entrer a l'utilisateur
-    verifier si l'entrer est valide
-    et si c'est le cas
-        creer un contact
-    console.log contact
-fin   
-Sauf que ce n'est pas ça au final donc j'ai tout supprimé.
-
+`debut`
+    `demander une entrer a l'utilisateur`
+    `verifier si l'entrer est valide`
+    `et si c'est le cas`
+        `creer un contact`
+    `console.log contact`
+`fin`   
 ## Crédits
 
-Tri de tableau : [https://codepen.io/jmontanye/pen/ZEWqwGm](https://codepen.io/jmontanye/pen/ZEWqwGm) 
+Tri de tableau : [https://codepen.io/jmontanye/pen/ZEWqwGm](https://codepen.io/jmontanye/pen/ZEWqwGm)
