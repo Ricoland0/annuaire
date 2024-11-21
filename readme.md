@@ -19,6 +19,8 @@ début
         afficher le contact dans la console
 fin
 ```
+sauf que bas c'est pas ca au final et puis c'est donc j'ai tout supprimer
+
 ## Crédits
 
 Tri de tableau : [https://codepen.io/jmontanye/pen/ZEWqwGm](https://codepen.io/jmontanye/pen/ZEWqwGm)
